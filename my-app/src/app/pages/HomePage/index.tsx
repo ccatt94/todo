@@ -27,9 +27,6 @@ const Title = styled.h1`
 
 const TodoList = styled.div``;
 
-const TodoCheck = styled.input`
-  margin-right: 15px;
-`;
 export function HomePage() {
   return (
     <>
@@ -61,7 +58,7 @@ export function HomePage() {
             <TodoItem
               todo={{
                 id: '1',
-                completed: false,
+                completed: true,
                 content: '투두 입니다3',
                 editing: false,
               }}
